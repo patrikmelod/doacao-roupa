@@ -17,8 +17,8 @@
     width: 99%;
 }
 .imgHeader{
-    height: 5%;
-    width: 10%;
+    height: 8%;
+    width: 8%;
     padding-left: 10PX;
 }
 .divButtons{
@@ -47,7 +47,7 @@
     box-sizing: border-box;
     box-shadow: black 2px 2px 5px;
     width: 100%;
-    height: 70vh;
+    height: 71vh;
     color: white;
 }
 .blocos{
@@ -83,13 +83,20 @@
 }
 
 .rodape{
+    padding: 20px;
     position: absolute;
     background-color: #98c1d9;
     align-items: center;
+    justify-content: center;
     display: flex;
     box-sizing: border-box;
     box-shadow: black 2px 2px 5px;
     width: 99%;
-    bottom: 0;  
-    
+    bottom: 0;     
+}
+
+
+.iconesRodape{
+    height: 50px;
+    width: 50px;  
 }
