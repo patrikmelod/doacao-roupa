@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <label for="nome">Nome completo:</label><br>
-    <input type="text" id="nome" name="nome" required><br> 
+<body class="fundo">
+    <div class="frente">
 
-    <label for="idade">Data de nascimento:</label><br>
-    <input type="date" id="idade" name="idade" required><br> 
+        <label for="nome">Nome completo:</label><br>
+        <input type="text" id="nome" name="nome" required><br> 
     
-    <label for="email">Email:</label><br>
-    <input type="text" id="email" name="email" placeholder="exemplo@exemplo.com" required><br> 
+        <label for="idade">Data de nascimento:</label><br>
+        <input type="date" id="idade" name="idade" required><br> 
+        
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="exemplo@exemplo.com" required><br> 
+    
+        <label for="pwd">Senha:</label><br>
+        <input type="password" id="pwd" name="pwd" required><br>
+    
+        <label for="confirma">Confirmar Senha:</label><br>
+        <input type="password" id="confirma" name="confirma" required><br>
+    
+        <input type="submit" value="Cadastrar-se"><br>
 
-    <label for="pwd">Senha:</label><br>
-    <input type="password" id="pwd" name="pwd" required><br>
+        
+    </div>
 
-    <label for="confirma">Confirmar Senha:</label><br>
-    <input type="password" id="confirma" name="confirma" required><br>
-
-    <input type="submit" value="Cadastrar-se"><br>
 </body>
 </html>
