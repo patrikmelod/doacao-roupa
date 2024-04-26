@@ -2,9 +2,7 @@
     background-color:#e0fbfc ;
     display: flex;
     justify-content: space-between;
-    
 }
-
 .header{
     position: fixed;
     background-color: #98c1d9;
@@ -94,8 +92,6 @@
     width: 99%;
     bottom: 0;     
 }
-
-
 .iconesRodape{
     height: 50px;
     width: 50px;  
