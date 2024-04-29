@@ -5,27 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="css/styleLogin.css">
+    <link rel="stylesheet" href="css/styleLoginCadastro.css">
+    <link rel="stylesheet" href="css/styleUtil.css">
 </head>
 
 <body>
+    <div class="containerLogo">
+        <img class="imgLogo" src="imagens/logo.png" alt="imagem de roupas">
+    </div>
     <div class="container">
         <div class="form">
-            <label for="nome">Nome completo:</label><br>
+            <label for="nome">Nome completo:</label>
             <input type="text" id="nome" name="nome" required><br>
 
-            <label for="idade">Data de nascimento:</label><br>
+            <label for="idade">Data de nascimento:</label>
             <input type="date" id="idade" name="idade" required><br>
 
-            <label for="email">Email:</label><br>
+            <label for="email">Email:</label>
             <input type="text" id="email" name="email" placeholder="exemplo@exemplo.com" required><br>
 
-            <label for="pwd">Senha:</label><br>
+            <label for="pwd">Senha:</label>
             <input type="password" id="pwd" name="pwd" required><br>
 
-            <label for="confirma">Confirmar Senha:</label><br>
+            <label for="confirma">Confirmar Senha:</label>
             <input type="password" id="confirma" name="confirma" required><br>
-
+        </div>
+        <div class="bottom">
             <button>Cadastrar-se</button><br>
         </div>
     </div>

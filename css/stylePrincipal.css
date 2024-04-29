@@ -1,0 +1,112 @@
+header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: #98c1d9;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: black 2px 2px 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.containerPrincipal {
+    background-color: #98c1d9;
+    flex-direction: column;
+    margin-bottom: 10px;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: black 2px 2px 5px;
+    color: white;
+    padding: 20px 40px 20px 40px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #98c1d9;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: black 2px 2px 5px;
+    bottom: 0;
+}
+
+.imgHeader {
+    height: 8%;
+    width: 8%;
+}
+
+.linkBotao {
+    display: inline-block;
+    padding: 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.linkBotao:hover {
+    background-color: #3d5a80;
+}
+
+.sair {
+    width: 100px;
+    background-color: #3d5a80;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+.cardsLocais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.infoLocais {
+    margin: 10px;
+    background-color: #3d5a80;
+    box-sizing: border-box;
+    box-shadow: black 2px 2px 5px;
+    padding: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.txtLocais {
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+.divButtons {
+    direction: row;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.fotos {
+    height: 160px;
+    width: 150px;
+    float: left;
+}
+
+.iconesRodape {
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.iconesRodape:hover {
+    background-color: #3d5a80;
+}
