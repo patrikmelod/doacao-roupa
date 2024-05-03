@@ -4,28 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styleLoginCadastro.css">
-    <link rel="stylesheet" href="css/styleUtil.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/stylePrincipal.css">
 </head>
 
-<body>
-    <div class="containerLogo">
+<body id="login">
+    <section class="containerLogo">
         <img class="imgLogo" src="imagens/logo.png" alt="imagem de roupas">
-    </div>
-    <div class="container">
-        <div class="form">
+    </section>
+    <main class="container">
+        <form action="principal.html">
             <label for="email">Email:</label>
             <input type="text" id="email" name="email" placeholder="exemplo@exemplo.com" required><br>
 
             <label for="pwd">Senha:</label>
             <input type="password" id="pwd" name="pwd" required><br>
-        </div>
-        <div class="bottom">
-            <button>Entrar</button><br>
-            <button>Cadastrar-se</button><br>
-        </div>
-    </div>
+            <div class="bottom">
+                <button>Entrar</button>
+            </div>
+        </form>
+        <a href="cadastro.html">
+            <button>Cadastrar-se</button>
+        </a><br>
+    </main>
 </body>
 
 </html>

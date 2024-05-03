@@ -1,8 +1,70 @@
+body {
+    background-color: #AACB9E;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+li {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+main, section, div {
+    display: flex;
+    background-color: white;
+}
+
+h1 {
+    width: 100%;
+    color: black;
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+label {
+    color: black;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    background-color: #EFF3EE;
+    border-color: black;
+}
+
+button {
+    width: 200px;
+    background-color: #6CB751;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    margin: 15px
+}
+
 header {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
-    background-color: #98c1d9;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
     box-shadow: black 2px 2px 5px;
@@ -10,20 +72,9 @@ header {
     padding-left: 15px;
 }
 
-.containerPrincipal {
-    background-color: #98c1d9;
-    flex-direction: column;
-    margin-bottom: 10px;
-    display: flex;
-    box-sizing: border-box;
-    box-shadow: black 2px 2px 5px;
-    color: white;
-    padding: 20px 40px 20px 40px;
-}
-
 footer {
     padding: 20px;
-    background-color: #98c1d9;
+    background-color: white;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -32,19 +83,72 @@ footer {
     bottom: 0;
 }
 
-.dicasDoacao {
+form {
     display: flex;
+    background-color: white;
     flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0px;
+}
+
+.containerLogo {
+    justify-content: center;
+    align-items: space-around;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+    box-shadow: black 2px 2px 5px;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    box-shadow: black 2px 2px 5px;
+}
+
+.containerPrincipal {
+    flex-direction: column;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    box-shadow: black 2px 2px 5px;
+    color: black;
+    padding: 20px 40px 20px 40px;
+}
+
+.bottom {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.imgLogo {
+    height: 180px;
+    width: 200px;
+}
+
+.dicasDoacao {
+    flex-direction: row;
     font-size: large;
     margin-bottom: 40px;
     margin-top: 20px;
     color: black;
+    flex-wrap: wrap;
 }
 
 .txtDicas {
+    flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 20px;
+    width: 60%;
 }
 
 .ods {
@@ -62,24 +166,25 @@ footer {
 }
 
 .odsObjetivos {
-    background-color: #3d5a80;
-    box-shadow: black 2px 2px 5px;
+    background-color: #AACB9E;
     padding: 50px;
     display: flex;
     flex-direction: column;
     font-size: large;
+    margin-top: 50px;
 }
 
 .imgRoupas {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .iconRoupas {
-    height: 40px;
-    width: 40px;
+    height: 70%;
+    width: 4%;
     margin: 5px;
 }
 
@@ -98,16 +203,7 @@ footer {
 }
 
 .linkBotao:hover {
-    background-color: white;
-}
-
-.sair {
-    width: 100px;
-    background-color: #3d5a80;
-    padding: 20px;
-    text-align: center;
-    display: inline-block;
-    color: white;
+    background-color: #AACB9E;
 }
 
 .cardsLocais {
@@ -119,27 +215,26 @@ footer {
 
 .infoLocais {
     margin: 10px;
-    background-color: #3d5a80;
+    background-color: #AACB9E;
     box-sizing: border-box;
     box-shadow: black 2px 2px 5px;
     padding: 30px;
-    justify-content: space-between;
-    display: flex;
+    justify-content: flex-start;
     flex-direction: row;
     align-items: center;
+    width: 45%;
 }
 
 .txtLocais {
-    display: flex;
     padding-left: 20px;
     flex-direction: column;
+    background-color: #AACB9E;
 }
 
 .divButtons {
     direction: row;
     justify-content: space-around;
     align-items: center;
-    display: flex;
 }
 
 .fotos {
@@ -159,14 +254,22 @@ footer {
 }
 
 .iconesRodape:hover {
-    background-color: white;
+    background-color: #AACB9E;
 }
 
-li {
-    text-align: justify;
-    text-justify: inter-word;
+#login {
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
-h2 {
-    text-align: center;
+#sair {
+    width: 100px;
+    padding: 20px;
+}
+
+#imgBox {
+    width: 20%;
+    height: 20%;
+    padding-top: 3%;
+    padding-left: 4%;
 }

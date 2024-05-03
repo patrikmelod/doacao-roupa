@@ -4,27 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Principal</title>
+    <title>Página Principal</title>
     <link rel="stylesheet" href="css/stylePrincipal.css">
-    <link rel="stylesheet" href="css/styleUtil.css">
 </head>
 
 <body>
     <header>
         <img class="imgHeader" src="imagens/logo.png" alt="imagem de roupas">
         <nav>
-            <title class="linkBotao">INICIO ></title>
-            <title class="linkBotao">LOCAIS ></title>
-            <title class="linkBotao">FALE CONOSCO ></title>
-            <title class="linkBotao">SOBRE ></title>
+            <a href="#CARDS_LOCAIS" class="linkBotao">LOCAIS</a>
+            <a href="#SOBRE_ODS" class="linkBotao">SOBRE</a>
+            <a href="#FALE_CONOSCO" class="linkBotao">FALE CONOSCO</a>
         </nav>
-        <button class="sair">SAIR</button>
+        <a href="login.html">
+            <button id="sair">SAIR</button>
+        </a>
     </header>
 
-    <div class="containerPrincipal">
-        <div class="dicasDoacao">
+    <main class="containerPrincipal">
+        <section class="dicasDoacao">
             <div class="txtDicas">
-                <h2>Dicas para doação de roupas</h2>
+                <h1>Dicas para doação de roupas</h1>
                 <p>Aqui estão algumas dicas sobre o que separar para doação:</p>
                 <ul>
                     <li>Peças que você não usa há mais de 6 meses</li>
@@ -33,6 +33,10 @@
                     <li>Doe as roupas que estão guardadas apenas por apego emocional</li>
                     <li>Separe também as peças que não combinam com seu estilo e rotina</li>
             </div>
+            <img id="imgBox" src="imagens/clothes-donation.png" alt="Roupa doação">
+        </section>
+        <section class="ods" id="SOBRE_ODS">
+            <img class="imgOds" src="imagens/ods12.png" alt="ODS 12">
             <div class="imgRoupas">
                 <img class="iconRoupas" src="imagens/clothes.png" alt="Roupas desenho">
                 <img class="iconRoupas" src="imagens/clothes-2.png" alt="Roupas desenho">
@@ -54,14 +58,9 @@
                 <img class="iconRoupas" src="imagens/brand.png" alt="Roupas desenho">
                 <img class="iconRoupas" src="imagens/jacket.png" alt="Roupas desenho">
                 <img class="iconRoupas" src="imagens/shop.png" alt="Roupas desenho">
-                <img class="iconRoupas" src="imagens/clothes.png" alt="Roupas desenho">
-                <img class="iconRoupas" src="imagens/clothes-2.png" alt="Roupas desenho">
             </div>
-        </div>
-        <div class="ods">
-            <img class="imgOds" src="imagens/ods12.png" alt="ODS 12">
             <div class="odsObjetivos">
-                <h2>Objetivos da ODS 12</h2>
+                <h1>Objetivos da ODS 12</h1>
                 <ul>
                     <li>Assegurar padrões de produção e de consumo sustentáveis</li>
                     <li>Implementar o Plano Decenal de Programas sobre Produção e Consumo Sustentáveis, com todos os
@@ -100,93 +99,91 @@
                         sobre o seu desenvolvimento de uma forma que proteja os pobres e as comunidades afetadas</li>
                 </ul>
             </div>
-        </div>
-        <div class="cardsLocais">
-            <section class="infoLocais" id="informacao">
-                <img class="fotos" src="ImagensLocais/IgrejaMetodista.jpg" alt="imagem igreja metodista">
-                <div class="txtLocais">
-                    <h3>Associação da Igreja Metodista</h3>
-                    <ul>
-                        <li>Endereço: Rua Espírito Santo, 255</li>
-                        <li>Cidade: Cornélio Procópio</li>
-                        <li>Telefone: (43) 9 9934-9800</li>
-                        <li>Prioridade: roupas de frio e cobertores</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="infoLocais" id="informacao">
-                <img class="fotos" src="ImagensLocais/cristoRei.jpeg" alt="imagem catedral cristo rei">
-                <div class="txtLocais">
-                    <h3>Catedral Cristo Rei</h3>
-                    <ul>
-                        <li>Endereço: Pça. Pe. José Kandziora, 166</li>
-                        <li>Cidade: Cornélio Procópio</li>
-                        <li>Telefone: (43) 9 9054-9800</li>
-                        <li>Prioridade: calçados</li>
-                    </ul>
-                </div>
-            </section>
-            <div class="break"></div>
-            <section class="infoLocais" id="informacao">
-                <img class="fotos" src="ImagensLocais/IgrejaMetodista.jpg" alt="imagem igreja metodista">
-                <div class="txtLocais">
-                    <h3>Associação da Igreja Metodista</h3>
-                    <ul>
-                        <li>Endereço: Rua Espírito Santo, 255</li>
-                        <li>Cidade: Cornélio Procópio</li>
-                        <li>Telefone: (43) 9 9934-9800</li>
-                        <li>Prioridade: roupas de frio e cobertores</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="infoLocais" id="informacao">
-                <img class="fotos" src="ImagensLocais/cristoRei.jpeg" alt="imagem catedral cristo rei">
-                <div class="txtLocais">
-                    <h3>Catedral Cristo Rei</h3>
-                    <ul>
-                        <li>Endereço: Pça. Pe. José Kandziora, 166</li>
-                        <li>Cidade: Cornélio Procópio</li>
-                        <li>Telefone: (43) 9 9054-9800</li>
-                        <li>Prioridade: calçados</li>
-                    </ul>
-                </div>
-            </section class="txtLocais">
-            <section class="infoLocais" id="informacao">
-                <img class="fotos" src="ImagensLocais/IgrejaMetodista.jpg" alt="imagem igreja metodista">
-                <div class="txtLocais">
-                    <h3>Associação da Igreja Metodista</h3>
-                    <ul>
-                        <li>Endereço: Rua Espírito Santo, 255</li>
-                        <li>Cidade: Cornélio Procópio</li>
-                        <li>Telefone: (43) 9 9934-9800</li>
-                        <li>Prioridade: roupas de frio e cobertores</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="infoLocais" id="informacao">
-                <img class="fotos" src="ImagensLocais/cristoRei.jpeg" alt="imagem catedral cristo rei">
-                <div class="txtLocais">
-                    <h3>Catedral Cristo Rei</h3>
-                    <ul>
-                        <li>Endereço: Pça. Pe. José Kandziora, 166</li>
-                        <li>Cidade: Cornélio Procópio</li>
-                        <li>Telefone: (43) 9 9054-9800</li>
-                        <li>Prioridade: calçados</li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-    </div>
+        </section>
+        <section class="cardsLocais" id="CARDS_LOCAIS">
+            <h1 id="doar">Saiba onde doar</h2>
+                <section class="infoLocais">
+                    <img class="fotos" src="ImagensLocais/IgrejaMetodista.jpg" alt="Imagem igreja metodista">
+                    <div class="txtLocais">
+                        <h3>Associação da Igreja Metodista</h3>
+                        <ul>
+                            <li>Rua Espírito Santo, 255</li>
+                            <li>Cornélio Procópio</li>
+                            <li>Telefone: (43) 9 9934-9800</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="infoLocais">
+                    <img class="fotos" src="ImagensLocais/cristoRei.jpeg" alt="Imagem catedral cristo rei">
+                    <div class="txtLocais">
+                        <h3>Catedral Cristo Rei</h3>
+                        <ul>
+                            <li>Pça. Pe. José Kandziora, 166</li>
+                            <li>Cornélio Procópio</li>
+                            <li>Telefone: (43) 9 9054-9800</li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="break"></div>
+                <section class="infoLocais">
+                    <img class="fotos" src="ImagensLocais/ongOrar.png" alt="Logo ONG ORAR">
+                    <div class="txtLocais">
+                        <h3>ONG ORAR</h3>
+                        <ul>
+                            <li>R. Portugal, 302</li>
+                            <li>Cornélio Procópio</li>
+                            <li>Telefone: (43) 3523-0968</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="infoLocais">
+                    <img class="fotos" src="ImagensLocais/brechoVal.jpeg" alt="Foto do brechó da Val">
+                    <div class="txtLocais">
+                        <h3>Brechó da Val</h3>
+                        <ul>
+                            <li>Av. Mal. Deodoro, 301</li>
+                            <li>Cornélio Procópio</li>
+                            <li>Telefone: (43) 9 9832-6213</li>
+                        </ul>
+                    </div>
+                </section class="txtLocais">
+                <section class="infoLocais">
+                    <img class="fotos" src="ImagensLocais/casaCrianca.jpeg" alt="Imagem Casa da Criança">
+                    <div class="txtLocais">
+                        <h3>Casa da Criança</h3>
+                        <ul>
+                            <li>Cornélio Procópio</li>
+                            <li>Telefone: (43) 3523-4122</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="infoLocais">
+                    <img class="fotos" src="ImagensLocais/uctCP.jpeg" alt="Logo do hemocentro de Cornélio Procópio">
+                    <div class="txtLocais">
+                        <h3>UCT de Cornélio Procópio</h3>
+                        <ul>
+                            <li>R. Justino Marquês Bonfim, 27</li>
+                            <li>Cornélio Procópio</li>
+                            <li>Telefone: (43) 3520-3500</li>
+                        </ul>
+                    </div>
+                </section>
+        </section>
+    </main>
 
-    <footer>
-        <img class="iconesRodape" src="imagens/whatsapp.png" alt="Icone do whatsapp">
-        <img class="iconesRodape" src="imagens/instagram.png" alt="Icone do instagram">
-        <img class="iconesRodape" src="imagens/facebook.png" alt="Icone do facebook">
-        <img class="iconesRodape" src="imagens/email.png" alt="Icone do email">
+    <footer id="FALE_CONOSCO">
+        <a href="https://www.whatsapp.com" target="_blank">
+            <img class="iconesRodape" src="imagens/whatsapp.png" alt="Icone do whatsapp">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img class="iconesRodape" src="imagens/instagram.png" alt="Icone do instagram">
+        </a>
+        <a href="https://www.facebook.com" target="_blank">
+            <img class="iconesRodape" src="imagens/facebook.png" alt="Icone do facebook">
+        </a>
+        <a href="mailto:vobem@gmail.com.br">
+            <img class="iconesRodape" src="imagens/email.png" alt="Icone do email">
+        </a>
     </footer>
 </body>
-
-
-
-
 </html>
