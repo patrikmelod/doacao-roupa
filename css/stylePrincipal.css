@@ -41,7 +41,7 @@ label {
     margin-bottom: 5px;
 }
 
-input {
+.inputText {
     width: 500px;
     height: 40px;
     margin-bottom: 15px;
@@ -50,14 +50,32 @@ input {
     border-color: black;
 }
 
-button {
+.inputButton {
     width: 200px;
     background-color: #6CB751;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    margin: 15px;
+    box-shadow: black 2px 2px 5px;
+    text-decoration: none;
+}
+
+.button {
+    width: 160px;
+    background-color: #6CB751;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
     padding: 20px;
     text-align: center;
     display: inline-block;
     color: black;
-    margin: 15px
+    margin: 15px;
+    box-shadow: black 2px 2px 5px;
+    text-decoration: none;
 }
 
 header {
@@ -263,8 +281,9 @@ form {
 }
 
 #sair {
-    width: 100px;
+    width: 70px;
     padding: 20px;
+    font-size: small;
 }
 
 #imgBox {
