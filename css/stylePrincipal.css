@@ -40,6 +40,42 @@ label {
     margin-bottom: 5px;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: black 2px 2px 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+footer {
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: black 2px 2px 5px;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0px;
+}
+
 .inputText {
     width: 500px;
     font-family:'Times New Roman', Times, serif;
@@ -77,42 +113,6 @@ label {
     margin: 15px;
     box-shadow: black 2px 2px 5px;
     text-decoration: none;
-}
-
-header {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10px;
-    background-color: white;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: black 2px 2px 5px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-footer {
-    padding: 20px;
-    background-color: white;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    box-sizing: border-box;
-    box-shadow: black 2px 2px 5px;
-    bottom: 0;
-}
-
-form {
-    display: flex;
-    background-color: white;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.break {
-    flex-basis: 100%;
-    height: 0px;
 }
 
 .containerLogo {
