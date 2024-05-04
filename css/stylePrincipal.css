@@ -36,7 +36,6 @@ p {
 label {
     color: black;
     font-family: sans-serif;
-    font-style: bold;
     font-size: 18px;
     margin-bottom: 5px;
 }
@@ -106,7 +105,7 @@ form {
     background-color: white;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: flex-start;
 }
 
 .break {
@@ -116,7 +115,7 @@ form {
 
 .containerLogo {
     justify-content: center;
-    align-items: space-around;
+    align-content: space-around;
     margin-bottom: 20px;
     box-sizing: content-box;
     box-shadow: black 2px 2px 5px;
@@ -250,7 +249,7 @@ form {
 }
 
 .divButtons {
-    direction: row;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
