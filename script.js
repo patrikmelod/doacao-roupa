@@ -89,15 +89,6 @@ function limparLista() {
     });
 }
 
-function getDataAtual() {
-    var today = new Date();
-    var dd = String(today.getDate()).padStart(2, '0');
-    var mm = String(today.getMonth() + 1).padStart(2, '0');
-    var yyyy = today.getFullYear();
-
-    return dd + '/' + mm + '/' + yyyy + " ";
-}
-
 function exibirDados() {
     limparForm();
 
@@ -133,6 +124,15 @@ function limparForm() {
     document.getElementById('nome').value = "";
     document.getElementById('email').value = "";
     document.getElementById('searchNome').value = "";
+}
+
+function getDataAtual() {
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0');
+    var yyyy = today.getFullYear();
+
+    return dd + '/' + mm + '/' + yyyy + " ";
 }
 
 exibirDados();
