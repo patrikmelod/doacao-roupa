@@ -321,22 +321,20 @@ form {
     flex: 0.15;
 }
 
-#login {
-    padding-left: 20%;
-    padding-right: 20%;
+.close {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-#sair {
-    width: 70px;
-    padding: 20px;
-    font-size: small;
+.close:hover {
+    background-color: #bcccb8;
+    color: white;
+    cursor: pointer;
 }
 
-#imgBox {
-    width: 20%;
-    height: 20%;
-    padding-top: 3%;
-    padding-left: 4%;
+.semRegistro {
+    margin-top: 10px;
+    color: gray; 
 }
 
 .mainUsers {
@@ -379,23 +377,25 @@ form {
     flex: 1;
 }
 
+#login {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#sair {
+    width: 70px;
+    padding: 20px;
+    font-size: small;
+}
+
+#imgBox {
+    width: 20%;
+    height: 20%;
+    padding-top: 3%;
+    padding-left: 4%;
+}
+
 #header {
     font-size: large;
     font-weight: 1000;
-}
-
-.close {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.close:hover {
-    background-color: #bcccb8;
-    color: white;
-    cursor: pointer;
-}
-
-.semRegistro {
-    margin-top: 10px;
-    color: gray; 
 }
