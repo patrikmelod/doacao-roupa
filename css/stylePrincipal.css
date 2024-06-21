@@ -5,6 +5,7 @@ body {
     padding-top: 1%;
     padding-left: 8%;
     padding-right: 8%;
+    font-family: sans-serif;
 }
 
 li {
@@ -78,7 +79,6 @@ form {
 
 .inputText {
     width: 500px;
-    font-family:'Times New Roman', Times, serif;
     font-size: medium;
     height: 40px;
     margin-bottom: 15px;
@@ -91,7 +91,6 @@ form {
     width: 200px;
     background-color: #6CB751;
     padding: 20px;
-    font-family:'Times New Roman', Times, serif;
     font-size: medium;
     text-align: center;
     display: inline-block;
@@ -104,7 +103,6 @@ form {
 .button {
     width: 160px;
     background-color: #6CB751;
-    font-family:'Times New Roman', Times, serif;
     font-size: medium;
     padding: 20px;
     text-align: center;
@@ -112,6 +110,17 @@ form {
     color: black;
     margin: 15px;
     box-shadow: black 2px 2px 5px;
+    text-decoration: none;
+}
+
+.buttonList {
+    width: 130px;
+    background-color: #6CB751;
+    font-size: medium;
+    padding: 12px;
+    margin-bottom: 18px;
+    text-align: center;
+    color: black;
     text-decoration: none;
 }
 
@@ -277,6 +286,41 @@ form {
     background-color: #AACB9E;
 }
 
+.admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+.admin .inputText {
+    flex: 1;
+}
+
+.admin .buttonList {
+    flex: 0.3;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    gap: 10px;
+}
+
+.search .inputText {
+    flex: 1;
+}
+
+.search .buttonList {
+    flex: 0.15;
+}
+
 #login {
     padding-left: 20%;
     padding-right: 20%;
@@ -293,4 +337,65 @@ form {
     height: 20%;
     padding-top: 3%;
     padding-left: 4%;
+}
+
+.mainUsers {
+    justify-content: center;
+}
+
+.listaUsers {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 1155px;
+    text-align: left;
+}
+
+.listaUsers li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.listaUsers li:nth-child(1) {
+    background-color: #AACB9E;
+}
+
+.listaUsers .id {
+    flex: 0.5;
+}
+
+.listaUsers .data {
+    flex: 0.5;
+}
+
+.listaUsers .user {
+    flex: 0.8;
+}
+
+.listaUsers .email {
+    flex: 1;
+}
+
+#header {
+    font-size: large;
+    font-weight: 1000;
+}
+
+.close {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.close:hover {
+    background-color: #bcccb8;
+    color: white;
+    cursor: pointer;
+}
+
+.semRegistro {
+    margin-top: 10px;
+    color: gray; 
 }

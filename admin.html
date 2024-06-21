@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="css/stylePrincipal.css">
+</head>
+
+<body>
+    <header>
+        <img class="imgHeader" src="imagens/logo.png" alt="imagem de roupas">
+        <h2>ÁREA DO ADMNISTRADOR</h2>
+        <a href="principal.html" class="button" id="sair">VOLTAR</a>
+    </header>
+    <div class="admin">
+        <input type="text" class="inputText" id="nome" placeholder="Informe o nome do usuário">
+        <input type="text" class="inputText" id="email" placeholder="Informe o email do usuário">
+        <button onclick="salvarUsuario()" class="buttonList">Incluir</button>
+        <button onclick="removerTodosUsuarios()" class="buttonList">Apagar tudo</button>
+    </div>
+    <div class="search">
+        <input type="text" class="inputText" id="searchNome" placeholder="Procurar usuário por nome">
+        <button onclick="procurarPorNome()" class="buttonList">Procurar</button>
+        <button onclick="exibirDados()" class="buttonList">Limpar filtro</button>
+    </div>
+    <main class="mainUsers">
+        <ul class="listaUsers" id="listaUsers">
+            <li id="header"><span class="id">ID</span><span class="user">USUÁRIO</span><span class="email">EMAIL</span><span class="data">DATA</span></li>
+        </ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
